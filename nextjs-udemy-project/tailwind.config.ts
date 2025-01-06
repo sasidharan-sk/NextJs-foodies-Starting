@@ -11,6 +11,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customTextShadow : "rgba(248, 190, 42, 0.8)",
+        customColor : "#ddd6cb",
+      },
+      fontFamily: {
+        montserrat: ['"Montserrat"', 'sans-serif'], // Add your font here
+      },
+      dropShadow: {
+        custom: "0 0 0.75rem rgba(0, 0, 0, 0.5)", // Add your custom value here
+      },
+      backgroundImage: {
+        customBg: "linear-gradient(90deg, #ff8a05, #f9b331)",
       },
     },
   },
